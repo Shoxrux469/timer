@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  gap: 10px;
+  height: 100vh;
+}
+
+.timer {
+  margin-top: 60px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer__block {
+  width: 102px;
+  height: 120px;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+}
+.timer__block span {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.btns {
+  display: flex;
+  gap: 20px;
+}
+.btns .btn button {
+  width: 102px;
+  height: 35px;
+  font-size: 25px;
+  border: 0;
+  background-color: pink;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
