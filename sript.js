@@ -8,12 +8,12 @@ let btn = document.querySelector(".btn");
 // console.log(seconds.innerHTML);
 function why_are_you_gay() {
   var audio = new Audio(); // Создаём новый элемент Audio
-  audio.src = "why-online-audio-converter.mp3"; // Указываем путь к звуку "клика"
+  audio.src = "./audio/why-online-audio-converter.mp3"; // Указываем путь к звуку "клика"
   audio.autoplay = true; // Автоматически запускаем
 }
 function you_are_gay() {
   var audio = new Audio(); // Создаём новый элемент Audio
-  audio.src = "./you-are-gay-sound-effect-made-with-Voicemod-technology.mp3"; // Указываем путь к звуку "клика"
+  audio.src = "./audio/you-are-gay-sound-effect-made-with-Voicemod-technology.mp3"; // Указываем путь к звуку "клика"
   audio.autoplay = true; // Автоматически запускаем
 }
 (start.style.display = "none"), "fade";
